@@ -1,0 +1,50 @@
+/* remove the underline link style */
+a, a:focus, a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #f1f1f1f1;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.bg-intro {
+  background-color: #795548;
+  color: #FFFFFF;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-4 {
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+.container-fluid {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+html, body, #photoViewStyle {
+  height: 100%;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+h2 {
+  font-size: 140%;
+}

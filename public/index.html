@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicons/iconLogo.ico" />
+  <title>Home | Rubén Moreno</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap imports -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Google fonts -->
+  <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'/>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"/>
+
+  <!--load the favicons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- AngularJS imports -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+  <!-- css own imports -->
+  <link rel="stylesheet" href="css/generalStyle.css" />
+  <link rel="stylesheet" href="css/photoViewStyle.css" />
+
+  <!-- OWN SCRIPTS -->
+  <!-- directives -->
+  <script src="javascript/directives.js"></script>
+  <!-- controllers -->
+  <script src="javascript/controllers/slideshowController.js"></script>
+  <script src="javascript/controllers/musicController.js"></script>
+  <script src="javascript/controllers/navbarController.js"></script>
+  <script src="javascript/controllers/photoViewController.js"></script>
+  <script src="javascript/controllers/bandController.js"></script>
+</head>
+
+<body ng-app="onirianApp">
+
+  <photo-view></photo-view>
+
+  <div class="container-fluid bg-2 text-center">
+    <h3 class="margin-bottom">What Am I?</h3>
+    <p>Lorem ipsum..</p>
+  </div>
+
+  <div class="container-fluid bg-3 text-center">
+    <h3 class="margin-bottom">Where To Find Me?</h3>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>Lorem ipsum..</p>
+        <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
+      </div>
+      <div class="col-sm-4">
+        <p>Lorem ipsum..</p>
+        <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
+      </div>
+      <div class="col-sm-4">
+        <p>Lorem ipsum..</p>
+        <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="container-fluid bg-4 text-center">
+    <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+  </footer>
+
+</body>
+</html>
