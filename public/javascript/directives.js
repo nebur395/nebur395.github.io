@@ -18,4 +18,14 @@ angular.module('rubenMorenoApp', [])
             controller: 'aboutMeCtrl',
             scope: {}
         }
+    })
+
+    // include the 'projects.html' into the <projects> tag
+    .directive('projects', function () {
+        return {
+            restrict: 'E',
+            templateUrl: 'templates/components/projects.html',
+            controller: 'projectsCtrl',
+            scope: {}
+        }
     });

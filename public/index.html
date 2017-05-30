@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="css/generalStyle.css" />
   <link rel="stylesheet" href="css/photoViewStyle.css" />
   <link rel="stylesheet" href="css/aboutMeStyle.css" />
+  <link rel="stylesheet" href="css/projectsStyle.css" />
 
   <!-- OWN SCRIPTS -->
   <!-- directives -->
@@ -33,32 +34,16 @@
   <!-- controllers -->
   <script src="javascript/controllers/aboutMeController.js"></script>
   <script src="javascript/controllers/photoViewController.js"></script>
+  <script src="javascript/controllers/generalController.js"></script>
 </head>
 
-<body ng-app="rubenMorenoApp">
+<body ng-app="rubenMorenoApp" ng-controller="generalCtrl">
 
   <photo-view></photo-view>
 
   <about-me></about-me>
 
-  <div class="container-fluid bg-3 text-center">
-    <h3 class="margin-bottom">Where To Find Me?</h3>
-    <div class="row">
-      <div class="col-sm-4">
-        <p>Lorem ipsum..</p>
-        <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
-      </div>
-      <div class="col-sm-4">
-        <p>Lorem ipsum..</p>
-        <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
-      </div>
-      <div class="col-sm-4">
-        <p>Lorem ipsum..</p>
-        <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
-      </div>
-    </div>
-  </div>
-
+  <projects></projects>
 
   <footer class="container-fluid bg-4 text-center">
     <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
