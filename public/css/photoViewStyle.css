@@ -62,6 +62,10 @@
   text-align: center;
 }
 
+#photoViewStyle #arrow em:hover {
+  color: rgb(158, 158, 158);
+}
+
 #photoViewStyle #arrow em {
   position: absolute;
   -webkit-transform-style: preserve-3d;
