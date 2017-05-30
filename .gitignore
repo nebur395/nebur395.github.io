@@ -51,3 +51,4 @@ classes
 
 /node_modules/
 public/node_modules
+npm-debug.log
