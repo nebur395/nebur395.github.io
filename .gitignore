@@ -48,3 +48,5 @@ gradle-app.settings
 
 ## Compiled java objects
 classes
+
+/node_modules/

@@ -1,8 +1,8 @@
 {
   "name": "nebur395.github.io",
   "version": "1.0.0",
-  "description": "My personal homepage.",
-  "main": "index.html",
+  "description": "## Start using this App",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/nebur395/nebur395.github.io.git"
   },
-  "author": "Rubén Moreno",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nebur395/nebur395.github.io/issues"
   },
   "homepage": "https://github.com/nebur395/nebur395.github.io#readme",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
