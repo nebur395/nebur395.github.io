@@ -12,7 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Google fonts -->
-  <!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'/>
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"/>
 
@@ -30,21 +30,15 @@
   <!-- directives -->
   <script src="javascript/directives.js"></script>
   <!-- controllers -->
-  <script src="javascript/controllers/slideshowController.js"></script>
-  <script src="javascript/controllers/musicController.js"></script>
-  <script src="javascript/controllers/navbarController.js"></script>
+  <script src="javascript/controllers/aboutMeController.js"></script>
   <script src="javascript/controllers/photoViewController.js"></script>
-  <script src="javascript/controllers/bandController.js"></script>
 </head>
 
-<body ng-app="onirianApp">
+<body ng-app="rubenMorenoApp">
 
   <photo-view></photo-view>
 
-  <div class="container-fluid bg-2 text-center">
-    <h3 class="margin-bottom">What Am I?</h3>
-    <p>Lorem ipsum..</p>
-  </div>
+  <about-me></about-me>
 
   <div class="container-fluid bg-3 text-center">
     <h3 class="margin-bottom">Where To Find Me?</h3>

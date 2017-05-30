@@ -2,6 +2,14 @@
   height: 100%;
 }
 
+#photoViewStyle .letterSpacing {
+  letter-spacing: 5px;
+}
+
+#photoViewStyle .sm-letterSpacing {
+  letter-spacing: 2px;
+}
+
 #photoViewStyle #avatar {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   transition: 0.3s;
@@ -35,7 +43,7 @@
 
 #photoViewStyle #aboutAndProjectsLinks a {
   color: #ffffff;
-  transition: 0.7s;
+  transition: 0.3s;
 }
 
 #photoViewStyle #aboutAndProjectsLinks a:hover {
