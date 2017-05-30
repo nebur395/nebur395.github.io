@@ -33,6 +33,15 @@
   color: #000000;
 }
 
+#photoViewStyle #aboutAndProjectsLinks a {
+  color: #ffffff;
+  transition: 0.7s;
+}
+
+#photoViewStyle #aboutAndProjectsLinks a:hover {
+  color: rgba(158, 158, 158, 0.7);
+}
+
 #photoViewStyle #arrow {
   color: #ffffff;
   position: absolute;
