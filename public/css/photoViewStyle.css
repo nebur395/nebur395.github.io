@@ -51,6 +51,7 @@
   transform-style: preserve-3d;
   top: 50%;
   left: 50%;
+  margin-left: -15px;
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   width: 100px;
@@ -62,20 +63,42 @@
 
 @keyframes pulse {
   0%, 100% {
-    /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
     opacity: 0.4;
     top: 0;
   }
 
   50% {
-  /*-ms-filter: none;*/
+  -ms-filter: none;
     filter: none;
     opacity: 1;
     top: -10px;
   }
 }
 
-@media only screen and (min-width: 1200px) and (max-height: 700px){
+/*
+ * Width:   [1200, +]
+ * Height:  [800,  +]
+ */
+@media only screen and (min-width: 1200px) and (min-height: 800px) {
+  #photoViewStyle #avatar {
+    max-height: 350px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 45px;
+  }
+}
+
+/*
+ * Width:   [1200,   +]
+ * Height:  [600,  799]
+ */
+@media only screen and (min-width: 1200px) and (max-height: 799px) and (min-height: 600px) {
   #photoViewStyle #avatar {
     max-height: 250px;
     margin: auto;
@@ -89,7 +112,93 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+/*
+ * Width:   [1200,   +]
+ * Height:  [450,  599]
+ */
+@media only screen and (min-width: 1200px) and (max-height: 599px) and (min-height: 450px) {
+  #photoViewStyle #avatar {
+    max-height: 100px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 5px;
+  }
+}
+
+/*
+ * Width:   [1200,   +]
+ * Height:  [360,  449]
+ */
+@media only screen and (min-width: 1200px) and (max-height: 449px) and (min-height: 360px) {
+  #photoViewStyle #avatar {
+    max-height: 100px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 5px;
+  }
+  #photoViewStyle #socialIcons .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 27px;
+    border: 1px solid #ffffff;
+  }
+  #photoViewStyle #arrow {
+    bottom: 15px;
+    font-size: 15px;
+  }
+  #photoViewStyle #arrow em {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/*
+ * Width:   [1200,   +]
+ * Height:  [0,    359]
+ */
+@media only screen and (min-width: 1200px) and (max-height: 359px) {
+  #photoViewStyle #avatar {
+    max-height: 50px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 5px;
+  }
+  #photoViewStyle #socialIcons .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 27px;
+    border: 1px solid #ffffff;
+  }
+  #photoViewStyle #arrow {
+    bottom: 15px;
+    font-size: 15px;
+  }
+  #photoViewStyle #arrow em {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/*
+ * Width:   [768, 1199]
+ * Height:  [600,  799]
+ */
+@media only screen and (max-width: 1199px) and (max-height: 799px) and (min-height: 600px) {
   #photoViewStyle #avatar {
     max-height: 250px;
     margin: auto;
@@ -100,5 +209,87 @@
   }
   #photoViewStyle .margin-bottom {
     margin-bottom: 25px;
+  }
+}
+
+/*
+ * Width:   [768, 1199]
+ * Height:  [450,  599]
+ */
+@media only screen and (max-width: 1199px) and (max-height: 599px) and (min-height: 450px) {
+  #photoViewStyle #avatar {
+    max-height: 100px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 5px;
+  }
+}
+
+/*
+ * Width:   [768, 1199]
+ * Height:  [360,  449]
+ */
+@media only screen and (max-width: 1199px) and (max-height: 449px) and (min-height: 360px) {
+  #photoViewStyle #avatar {
+    max-height: 100px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 5px;
+  }
+  #photoViewStyle #socialIcons .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 27px;
+    border: 1px solid #ffffff;
+  }
+  #photoViewStyle #arrow {
+    bottom: 15px;
+    font-size: 15px;
+  }
+  #photoViewStyle #arrow em {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/*
+ * Width:   [768, 1199]
+ * Height:  [0,    359]
+ */
+@media only screen and (max-width: 1199px) and (max-height: 449px) and (max-height: 359px) {
+  #photoViewStyle #avatar {
+    max-height: 50px;
+    margin: auto;
+  }
+  #photoViewStyle .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #photoViewStyle .margin-bottom {
+    margin-bottom: 5px;
+  }
+  #photoViewStyle #socialIcons .fa {
+    padding: 5px;
+    font-size: 15px;
+    width: 27px;
+    border: 1px solid #ffffff;
+  }
+  #photoViewStyle #arrow {
+    bottom: 15px;
+    font-size: 15px;
+  }
+  #photoViewStyle #arrow em {
+    width: 50px;
+    height: 50px;
   }
 }
