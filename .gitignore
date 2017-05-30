@@ -50,3 +50,4 @@ gradle-app.settings
 classes
 
 /node_modules/
+public/node_modules
