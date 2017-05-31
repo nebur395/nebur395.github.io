@@ -38,7 +38,7 @@ angular.module('rubenMorenoApp')
                 link: "https://github.com/nebur395/uCode17",
                 webPage: "",
                 secondaryTitle: "Web Application - Responsive",
-                image: "ruben.jpg",
+                image: "uCode.png",
                 description: "Proyecto para el hackathon uCode by Adidas 2017."
             },
 
@@ -66,7 +66,7 @@ angular.module('rubenMorenoApp')
                 link: "https://github.com/wynro/airQ-web",
                 webPage: "",
                 secondaryTitle: "Web Application - Responsive",
-                image: "ruben.jpg",
+                image: "airQ.png",
                 description: "Proyecto para el hackathon International Space Apps Challenge 2016 de la NASA."
             }
         ];
