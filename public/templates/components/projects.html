@@ -4,17 +4,25 @@
     <h3 class="margin-bottom">Some of my coolest projects</h3>
 
 
-    <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
-    </div>
-    <div class="col-sm-4">
-      <p>Lorem ipsum..</p>
-      <img src="./images/ruben.jpg" class="img-responsive margin-bottom" alt="Image">
+    <div class="projectsRow">
+
+      <div class="projectsColumn" ng-repeat="project in projectList track by $index">
+        <div class="projectsCard">
+          <img ng-src="./images/{{project.image}}" class="img-responsive" alt="Image">
+
+          <div class="projectsContainer">
+
+            <h4>{{project.title}}</h4>
+
+            <p class="projectsTitle">{{project.secondaryTitle}}</p>
+            <div class="divider"></div>
+            <p class="text-justify">{{project.description}}</p>
+
+
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>

@@ -11,13 +11,13 @@
 }
 
 #photoViewStyle #avatar {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
   transition: 0.3s;
-  border: 1px solid rgba(158, 158, 158, 1);
+  border: 1px solid rgba(158, 158, 158, 0.3);
 }
 
 #photoViewStyle #avatar:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
   opacity: 0.8;
   border: 1px solid rgba(158, 158, 158, 0.7);
 }

@@ -40,6 +40,16 @@ body {
   margin-bottom: 35px;
 }
 
+.divider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 1px;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#BDBDBD), to(#BDBDBD), color-stop(50%, #696969));
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 html, body, #photoViewStyle {
   height: 100%;
 }
