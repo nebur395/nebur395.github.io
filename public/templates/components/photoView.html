@@ -19,11 +19,13 @@
     </div>
 
     <div id="aboutAndProjectsLinks">
-      <a href="#aboutMeStyle" style="margin-right: 2%" class="letterSpacing">About Me</a>
-      <a href="#projectsStyle" class="letterSpacing">Projects</a>
+      <a style="margin-right: 2%" class="letterSpacing"
+         ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})">About Me</a>
+      <a class="letterSpacing"
+         ng-click="smoothScrolling({link: '#projectsStyle', clickEvent: $event})">Projects</a>
     </div>
 
-    <a href="#aboutMeStyle" id="arrow">
+    <a ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})" id="arrow">
       <em class="fa fa-chevron-down" aria-hidden="true"></em>
     </a>
 

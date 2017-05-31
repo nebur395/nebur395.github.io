@@ -1,5 +1,5 @@
 angular.module('rubenMorenoApp')
 
-    .controller('photoViewCtrl', ['$scope', function ($scope) {
+    .controller('aboutMeCtrl', ['$scope', function ($scope) {
 
     }]);

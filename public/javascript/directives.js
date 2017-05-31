@@ -5,8 +5,9 @@ angular.module('rubenMorenoApp', [])
         return {
             restrict: 'E',
             templateUrl: 'templates/components/photoView.html',
-            controller: 'photoViewCtrl',
-            scope: {}
+            scope: {
+                smoothScrolling: '&'
+            }
         }
     })
 

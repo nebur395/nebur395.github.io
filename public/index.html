@@ -41,7 +41,7 @@
 
 <body ng-app="rubenMorenoApp" ng-controller="generalCtrl">
 
-  <photo-view></photo-view>
+  <photo-view smooth-scrolling="smoothScrolling(link, clickEvent)"></photo-view>
 
   <about-me></about-me>
 
@@ -52,8 +52,8 @@
 
     <h1 class="margin-bottom letterSpacing">Rubén Moreno</h1>
     <div id="aboutAndProjectsLinks" class="margin-bottom ">
-      <a href="#aboutMeStyle" style="margin-right: 2%" class="letterSpacing">About Me</a>
-      <a href="#projectsStyle" class="letterSpacing">Projects</a>
+      <a style="margin-right: 2%" class="letterSpacing" ng-click="smoothScrolling('#aboutMeStyle', $event)">About Me</a>
+      <a class="letterSpacing" ng-click="smoothScrolling('#projectsStyle', $event)">Projects</a>
     </div>
 
     <p>© 2017 Rubén Moreno</p>

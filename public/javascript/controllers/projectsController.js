@@ -26,7 +26,6 @@ angular.module('rubenMorenoApp')
         };
 
         $scope.isMobile = checkMobile.any() ? true : false;
-        console.log("is mobile: " + $scope.isMobile);
 
         $scope.projectList = [
             {
