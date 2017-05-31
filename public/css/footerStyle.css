@@ -1,0 +1,20 @@
+#footerStyle .letterSpacing {
+  letter-spacing: 5px;
+}
+
+#footerStyle .sm-letterSpacing {
+  letter-spacing: 2px;
+}
+
+#footerStyle #aboutAndProjectsLinks a {
+  transition: 0.3s;
+  color: #D7CCC8;
+}
+
+#footerStyle #aboutAndProjectsLinks a:hover {
+  color: rgba(158, 158, 158, 0.7);
+}
+
+#footerStyle p {
+  font-size: 12px;
+}
