@@ -6,7 +6,8 @@
 
     <div class="projectsRow">
 
-      <div class="projectsColumn" ng-repeat="project in projectList track by $index">
+      <div class="projectsColumn" ng-repeat="project in projectList track by $index"
+           ng-class="{projectsColumnMobile: !isMobile}">
         <div class="projectsCard">
           <img ng-src="./images/{{project.image}}" class="img-responsive" alt="Image">
 
@@ -20,10 +21,12 @@
 
         </div>
 
-        <div class="middleButtons">
-          <div class="projectsButton">GitHub</div>
-          </br>
-          <div class="projectsButton">Website</div>
+        <div class="middleButtons" ng-hide="isMobile">
+          <a ng-href="{{project.link}}" target="_blank" class="projectsButton">GitHub</a>
+          <div ng-if="project.webPage.length > 0">
+            </br>
+            <a ng-href="{{$parent.project.webPage}}" target="_blank" class="projectsButton">Website</a>
+          </div>
         </div>
       </div>
 

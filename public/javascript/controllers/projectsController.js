@@ -2,6 +2,32 @@ angular.module('rubenMorenoApp')
 
     .controller('projectsCtrl', ['$scope', function ($scope) {
 
+        // return true if you are on mobile device
+        var checkMobile = {
+            Android: function () {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function () {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function () {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function () {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function () {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function () {
+                return (checkMobile.Android() || checkMobile.BlackBerry() ||
+                checkMobile.iOS() || checkMobile.Opera() || checkMobile.Windows());
+            }
+        };
+
+        $scope.isMobile = checkMobile.any() ? true : false;
+        console.log("is mobile: " + $scope.isMobile);
+
         $scope.projectList = [
             {
                 title: "Añisclo's POI",
