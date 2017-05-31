@@ -16,7 +16,6 @@ angular.module('rubenMorenoApp', [])
         return {
             restrict: 'E',
             templateUrl: 'templates/components/aboutMe.html',
-            controller: 'aboutMeCtrl',
             scope: {}
         }
     })
