@@ -2,13 +2,21 @@ angular.module('rubenMorenoApp')
 
     .controller('generalCtrl', ['$scope', function ($scope) {
 
+        console.log("carga 1");
+
+        //Execute this code when view is loaded
+        $scope.$on('$viewContentLoaded', function(){
+            $scope.hola = "hola";
+            console.log("carga 2");
+        });
+
         $(document).ready(function() {
 
             // SMOOTH SCROLLING SECTION
-
+            console.log("carga 3");
             // Add smooth scrolling on all links inside the navbar
             $("#aboutAndProjectsLinks a, #arrow").on('click', function (event) {
-
+                console.log("carga 4");
                 // Make sure this.hash has a value before overriding default behavior
                 if (this.hash !== "") {
 
@@ -29,5 +37,18 @@ angular.module('rubenMorenoApp')
                     });
                 } // End if
             });
+        });
+
+        angular.element(function () {
+            console.log("carga 5");
+            // SMOOTH SCROLLING SECTION
+            // Add smooth scrolling on all links inside the navbar
+            $("#aboutAndProjectsLinks a, #arrow").on('click', function (event) {
+                console.log("carga 6");
+            });
+        });
+
+        $("#aboutAndProjectsLinks a, #arrow").on('click', function (event) {
+            console.log("carga 7");
         });
     }]);
