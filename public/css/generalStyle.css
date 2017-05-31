@@ -10,7 +10,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #f1f1f1f1;
-  /*font-family: 'Noto Sans', sans-serif;*/
   font-family: 'Montserrat', sans-serif;
   line-height: 1.8;
 }
@@ -64,4 +63,19 @@ h2 {
 
 h3 {
   font-size: 130%;
+}
+
+::-webkit-scrollbar {
+  width: .5em;
+  height: .5em;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background: #aaaaaa;
+}
+
+::-webkit-scrollbar-track {
+  background: #dddddd;
 }
