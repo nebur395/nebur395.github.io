@@ -28,20 +28,18 @@ angular.module('rubenMorenoApp')
         };
 
         window.onscroll = function (e) {
-            if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            if($(window).scrollTop() +  window.innerHeight + 243 >= $(document).height()) {
+                $scope.appearClass = false;
+                $scope.disappearClass = true;
+                $scope.$apply();
+            } else if(document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
                 $scope.appearClass = true;
                 $scope.disappearClass = false;
                 $scope.$apply();
-                /*$("#toTopButton").addClass("appear");
-                $("#toTopButton").removeClass("disappear");*/
-                //document.getElementById("toTopButton").style.display = "block";
             } else if ($scope.appearClass) {
                 $scope.appearClass = false;
                 $scope.disappearClass = true;
                 $scope.$apply();
-                /*$("#toTopButton").addClass("disappear");
-                $("#toTopButton").removeClass("appear");*/
-                //document.getElementById("toTopButton").style.display = "none";
             }
         }
     }]);

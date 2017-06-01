@@ -6,15 +6,15 @@
   letter-spacing: 2px;
 }
 
-#footerStyle #aboutAndProjectsLinks a {
+#footerStyle .customLinks a {
   transition: 0.3s;
   color: #D7CCC8;
 }
 
-#footerStyle #aboutAndProjectsLinks a:hover {
+#footerStyle .customLinks a:hover {
   color: rgba(158, 158, 158, 0.7);
 }
 
-#footerStyle p {
+#footerStyle p, #footerStyle #backTop {
   font-size: 12px;
 }
