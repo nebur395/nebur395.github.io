@@ -27,8 +27,20 @@ angular.module('rubenMorenoApp')
             } // End if
         };
 
-        // Function onscroll watcher to manage the "To Top" button
+        // Function onscroll watcher
         window.onscroll = function (e) {
+
+            // Section to manage the "slide" animation
+            $(".slideanim").each(function(){
+                var pos = $(this).offset().top;
+
+                var winTop = $(window).scrollTop();
+                if (pos < winTop + 600) {
+                    $(this).addClass("slide");
+                }
+            });
+
+            // Section to manage the "To Top" button
             if($(window).scrollTop() +  window.innerHeight + 243 >= $(document).height()) {
                 $scope.appearClass = false;
                 $scope.disappearClass = true;
@@ -42,5 +54,5 @@ angular.module('rubenMorenoApp')
                 $scope.disappearClass = true;
                 $scope.$apply();
             }
-        }
+        };
     }]);
