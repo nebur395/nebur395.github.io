@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Bootstrap imports -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'/>
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
 
   <!--load the favicons-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
   <!-- AngularJS imports -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script type="text/javascript" src="node_modules/angular-translate/dist/angular-translate.js"></script>
 
   <!-- css own imports -->
   <link rel="stylesheet" href="css/generalStyle.css" />
@@ -32,10 +31,13 @@
 
   <!-- OWN SCRIPTS -->
   <!-- directives -->
-  <script src="javascript/directives.js"></script>
+  <script type="text/javascript" src="javascript/directives.js"></script>
+  <!-- translations config -->
+  <script type="text/javascript" src="javascript/config/en_translate.js"></script>
+  <script type="text/javascript" src="javascript/config/es_translate.js"></script>
   <!-- controllers -->
-  <script src="javascript/controllers/generalController.js"></script>
-  <script src="javascript/controllers/projectsController.js"></script>
+  <script type="text/javascript" src="javascript/controllers/generalController.js"></script>
+  <script type="text/javascript" src="javascript/controllers/projectsController.js"></script>
 </head>
 
 <body ng-app="rubenMorenoApp" ng-controller="generalCtrl">
@@ -54,12 +56,15 @@
 
     <div class="customLinks">
       <a id="backTop" class="letterSpacing" ng-click="smoothScrolling('#photoViewStyle', $event)">
-        back to top</a>
+        {{'footer.BACKTOP' | translate}}</a>
     </div>
     <h1 class="margin-bottom letterSpacing">Rubén Moreno</h1>
     <div class="margin-bottom customLinks">
-      <a style="margin-right: 2%" class="letterSpacing" ng-click="smoothScrolling('#aboutMeStyle', $event)">About Me</a>
-      <a class="letterSpacing" ng-click="smoothScrolling('#projectsStyle', $event)">Projects</a>
+      <a style="margin-right: 2%" class="letterSpacing" ng-click="smoothScrolling('#aboutMeStyle', $event)">
+        {{'footer.ABOUT' | translate}}</a>
+      <a class="letterSpacing" ng-click="smoothScrolling('#projectsStyle', $event)">
+        {{'footer.PROJECTS' | translate}}
+      </a>
     </div>
 
     <p>© 2017 Rubén Moreno</p>

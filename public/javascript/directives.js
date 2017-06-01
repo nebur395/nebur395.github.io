@@ -1,4 +1,4 @@
-angular.module('rubenMorenoApp', [])
+angular.module('rubenMorenoApp', ['pascalprecht.translate'])
 
     // include the 'photoView.html' into the <photo-view> tag
     .directive('photoView', function () {

@@ -16,5 +16,8 @@
     "url": "https://github.com/nebur395/nebur395.github.io/issues"
   },
   "homepage": "https://github.com/nebur395/nebur395.github.io#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "angular-translate": "^2.15.1"
+  }
 }
