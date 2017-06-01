@@ -27,6 +27,7 @@ angular.module('rubenMorenoApp')
             } // End if
         };
 
+        // Function onscroll watcher to manage the "To Top" button
         window.onscroll = function (e) {
             if($(window).scrollTop() +  window.innerHeight + 243 >= $(document).height()) {
                 $scope.appearClass = false;
