@@ -1,7 +1,7 @@
 <div id="photoViewStyle">
   <div class="container-fluid bg-intro text-center">
 
-    <h1 class="margin-bottom letterSpacing">Who Am I?</h1>
+    <h1 class="margin-bottom letterSpacing">{{'photoView.TITLE' | translate}}</h1>
     <div class="row">
       <div class="col-xs-offset-4 col-xs-4">
         <img src="../../images/ruben.jpg" class="img-responsive img-circle margin-bottom"
@@ -9,7 +9,7 @@
       </div>
     </div>
     <h1 class="margin-bottom letterSpacing">Rubén Moreno</h1>
-    <h2 class="sm-letterSpacing">Software Developer</h2>
+    <h2 class="sm-letterSpacing">{{'photoView.JOB' | translate}}</h2>
     <div id="socialIcons">
       <a href="https://github.com/nebur395" target="_blank" class="fa fa-github"
          aria-hidden="true"></a>
@@ -20,9 +20,11 @@
 
     <div id="aboutAndProjectsLinks">
       <a style="margin-right: 2%" class="letterSpacing"
-         ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})">About Me</a>
+         ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})">
+        {{'photoView.ABOUT' | translate}}</a>
       <a class="letterSpacing"
-         ng-click="smoothScrolling({link: '#projectsStyle', clickEvent: $event})">Projects</a>
+         ng-click="smoothScrolling({link: '#projectsStyle', clickEvent: $event})">
+        {{'photoView.PROJECTS' | translate}}</a>
     </div>
 
     <a ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})" id="arrow">
