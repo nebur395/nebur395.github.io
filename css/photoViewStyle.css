@@ -197,6 +197,13 @@
   #photoViewStyle h1 {
     font-size: 150%;
   }
+  #photoViewStyle h2 {
+    font-size: 120%;
+  }
+
+  #photoViewStyle h3 {
+    font-size: 110%;
+  }
 }
 
 /*
@@ -231,6 +238,13 @@
   }
   #photoViewStyle h1 {
     font-size: 150%;
+  }
+  #photoViewStyle h2 {
+    font-size: 120%;
+  }
+
+  #photoViewStyle h3 {
+    font-size: 110%;
   }
 }
 
@@ -303,6 +317,13 @@
   #photoViewStyle h1 {
     font-size: 150%;
   }
+  #photoViewStyle h2 {
+    font-size: 120%;
+  }
+
+  #photoViewStyle h3 {
+    font-size: 110%;
+  }
 }
 
 /*
@@ -337,5 +358,12 @@
   }
   #photoViewStyle h1 {
     font-size: 150%;
+  }
+  #photoViewStyle h2 {
+    font-size: 120%;
+  }
+
+  #photoViewStyle h3 {
+    font-size: 110%;
   }
 }
