@@ -1,7 +1,10 @@
 <div id="projectsStyle">
   <div class="container-fluid bg-3 text-center">
 
-    <h3 class="margin-bottom">Some of my coolest projects</h3>
+    <h3 class="margin-bottom">
+      <!-- DATA TEXT translated and sanitized -->
+      <span data-ng-bind-html="'projects.TITLE' | translate | htmlSafe"></span>
+    </h3>
 
 
     <div class="projectsRow">
@@ -15,9 +18,17 @@
           <div class="projectsContainer">
             <h4>{{project.title}}</h4>
 
-            <p class="projectsTitle">{{project.secondaryTitle}}</p>
+            <p class="projectsTitle">
+              <!-- DATA TEXT translated and sanitized -->
+              <span data-ng-bind-html="project.secondaryTitle | translate | htmlSafe"></span>
+            </p>
+
             <div class="divider"></div>
-            <p class="text-justify">{{project.description}}</p>
+
+            <p class="text-justify">
+              <!-- DATA TEXT translated and sanitized -->
+              <span data-ng-bind-html="project.description | translate | htmlSafe"></span>
+            </p>
 
             <div class="col-xs-12 text-center mobileButtons" ng-hide="!isMobile">
               <a ng-href="{{project.link}}" target="_blank" class="projectsButton">GitHub</a>

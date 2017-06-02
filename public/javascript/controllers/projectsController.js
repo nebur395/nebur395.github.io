@@ -32,67 +32,63 @@ angular.module('rubenMorenoApp')
                 title: "Añisclo's POI",
                 link: "https://github.com/nebur395/Anisclo",
                 webPage: "",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.anisclo.type",
                 image: "poisAnisclo.png",
-                description: "Proyecto para la universidad que consiste en una red social para" +
-                " compartir rutas y POIs de un mapa."
+                description: "projects.anisclo.description"
             },
 
             {
                 title: "Smart CampUZ",
                 link: "https://github.com/UNIZAR-30249-2016-SmartCampUZ/smartCampUZ",
                 webPage: "",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.smartCampUZ.type",
                 image: "smartCampUZ.png",
-                description: "Proyecto para la universidad que consiste en una aproximación de" +
-                " una Smart City para el Campus de Unizar."
+                description: "projects.smartCampUZ.description"
             },
 
             {
                 title: "No te rayes CO",
                 link: "https://github.com/nebur395/noTeRayesCo",
                 webPage: "https://noterayesco.herokuapp.com/",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.noTeRayes.type",
                 image: "noTeRayesCo.png",
-                description: "Página web con una cuenta atrás para las fiestas del pilar de" +
-                " Zaragoza, España."
+                description: "projects.noTeRayes.description"
             },
 
             {
                 title: "REC & MAKE",
                 link: "https://github.com/nebur395/uCode17",
                 webPage: "",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.recMake.type",
                 image: "uCode.png",
-                description: "Proyecto para el hackathon uCode by Adidas 2017."
+                description: "projects.recMake.description"
             },
 
             {
                 title: "Onirian Official Website",
                 link: "https://github.com/nebur395/Onirian_2.0",
                 webPage: "https://onirian.herokuapp.com/",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.onirian.type",
                 image: "onirian.png",
-                description: "Página web oficial del grupo de música Onirian de Zaragoza, España."
+                description: "projects.onirian.description"
             },
 
             {
                 title: "Training Tracker",
                 link: "https://github.com/UNIZAR-30248-2016-TrainingTracker/trainingTracker",
                 webPage: "",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.trainingTracker.type",
                 image: "trainingTracker.png",
-                description: "Proyecto para la universidad que consiste en una aplicación para" +
-                " controlarte las rutinas de tu ejercicio."
+                description: "projects.trainingTracker.description"
             },
 
             {
                 title: "AirQ",
                 link: "https://github.com/wynro/airQ-web",
                 webPage: "",
-                secondaryTitle: "Web Application - Responsive",
+                secondaryTitle: "projects.airQ.type",
                 image: "airQ.png",
-                description: "Proyecto para el hackathon International Space Apps Challenge 2016 de la NASA."
+                description: "projects.airQ.description"
             }
         ];
 
