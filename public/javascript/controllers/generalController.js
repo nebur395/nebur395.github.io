@@ -1,9 +1,13 @@
 angular.module('rubenMorenoApp')
 
-    .controller('generalCtrl', ['$scope', function ($scope) {
+    .controller('generalCtrl', ['$scope', '$translate', function ($scope, $translate) {
 
         $scope.appearClass = false;
         $scope.disappearClass = false;
+
+        $scope.setLanguage = function (langKey) {
+            $translate.use(langKey);
+        };
 
         // Add smooth scrolling on [hash] links
         $scope.smoothScrolling = function (link, clickEvent) {

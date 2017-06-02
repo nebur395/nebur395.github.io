@@ -82,6 +82,19 @@
   animation: pulse 1.3s infinite;
 }
 
+#photoViewStyle #selectLanguage {
+  color: #ffffff;
+  transition: 0.3s;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 12px;
+}
+
+#photoViewStyle #selectLanguage:hover {
+  color: rgba(158, 158, 158, 0.7);
+}
+
 @keyframes pulse {
   0%, 100% {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
