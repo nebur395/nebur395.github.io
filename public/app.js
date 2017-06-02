@@ -7,7 +7,7 @@ angular.module('rubenMorenoApp', ['pascalprecht.translate', 'ngSanitize'])
             suffix : '.json'
         });
 
-        $translateProvider.preferredLanguage('en');
+        $translateProvider.preferredLanguage('es');
         // Enable escaping of HTML
         $translateProvider.useSanitizeValueStrategy('sanitize'); // I added this line based on Docs wasn't before
 
