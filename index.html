@@ -42,30 +42,30 @@
 
 <body ng-app="rubenMorenoApp" ng-controller="generalCtrl">
 
-  <photo-view
+  <photo-view id="home"
     smooth-scrolling="smoothScrolling(link, clickEvent)"
     set-language="setLanguage(langKey)">
   </photo-view>
 
-  <about-me></about-me>
+  <about-me id="about"></about-me>
 
-  <projects></projects>
+  <projects id="projects"></projects>
 
   <div id="toTopButton" ng-class="{appear: appearClass, disappear: disappearClass}">
-    <a ng-click="smoothScrolling('#photoViewStyle', $event)"><i class="fa fa-arrow-up"></i></a>
+    <a ng-click="smoothScrolling('#home', $event)"><i class="fa fa-arrow-up"></i></a>
   </div>
 
   <footer class="container-fluid bg-4 text-center" id="footerStyle">
 
     <div class="customLinks">
-      <a id="backTop" class="letterSpacing" ng-click="smoothScrolling('#photoViewStyle', $event)">
+      <a id="backTop" class="letterSpacing" ng-click="smoothScrolling('#home', $event)">
         {{'footer.BACKTOP' | translate}}</a>
     </div>
     <h1 class="margin-bottom letterSpacing">Rubén Moreno</h1>
     <div class="margin-bottom customLinks">
-      <a style="margin-right: 2%" class="letterSpacing" ng-click="smoothScrolling('#aboutMeStyle', $event)">
+      <a style="margin-right: 2%" class="letterSpacing" ng-click="smoothScrolling('#about', $event)">
         {{'footer.ABOUT' | translate}}</a>
-      <a class="letterSpacing" ng-click="smoothScrolling('#projectsStyle', $event)">
+      <a class="letterSpacing" ng-click="smoothScrolling('#projects', $event)">
         {{'footer.PROJECTS' | translate}}
       </a>
     </div>
