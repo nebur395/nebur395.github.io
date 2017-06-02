@@ -1,8 +1,8 @@
 {
   "name": "nebur395.github.io",
   "version": "1.0.0",
-  "description": "## Start using this App",
-  "main": "server.js",
+  "description": "My personal homepage.",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/nebur395/nebur395.github.io.git"
   },
-  "author": "",
+  "author": "Rubén Moreno",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nebur395/nebur395.github.io/issues"
   },
   "homepage": "https://github.com/nebur395/nebur395.github.io#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "angular-sanitize": "^1.6.4"
+  },
+  "devDependencies": {
+    "angular-translate": "^2.15.1"
   }
 }
