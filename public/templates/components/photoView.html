@@ -1,7 +1,10 @@
 <div id="photoViewStyle">
   <div class="container-fluid bg-intro text-center">
 
-    <h1 class="margin-bottom letterSpacing">{{'photoView.TITLE' | translate}}</h1>
+    <h1 class="margin-bottom letterSpacing">
+      <span data-ng-bind-html="'photoView.TITLE' | translate | htmlSafe"></span>
+    </h1>
+
     <div class="row">
       <div class="col-xs-offset-4 col-xs-4">
         <img src="../../images/ruben.jpg" class="img-responsive img-circle margin-bottom"
