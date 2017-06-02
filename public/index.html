@@ -42,7 +42,10 @@
 
 <body ng-app="rubenMorenoApp" ng-controller="generalCtrl">
 
-  <photo-view smooth-scrolling="smoothScrolling(link, clickEvent)"></photo-view>
+  <photo-view
+    smooth-scrolling="smoothScrolling(link, clickEvent)"
+    set-language="setLanguage(langKey)">
+  </photo-view>
 
   <about-me></about-me>
 

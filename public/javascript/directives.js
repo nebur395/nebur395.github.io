@@ -6,6 +6,7 @@ angular.module('rubenMorenoApp')
             restrict: 'E',
             templateUrl: 'templates/components/photoView.html',
             scope: {
+                setLanguage: '&',
                 smoothScrolling: '&'
             }
         }

@@ -27,7 +27,10 @@
 
     <div id="aboutAndProjectsLinks">
       <p id="selectLanguage">
-        <a class="letterSpacing">ES</a> | <a class="letterSpacing">EN</a>
+        <a class="letterSpacing"
+           ng-click="setLanguage({langKey: 'es'})">ES</a>
+        <span> | </span>
+        <a class="letterSpacing" ng-click="setLanguage({langKey: 'en'})">EN</a>
       </p>
 
       <a style="margin-right: 2%" class="letterSpacing"
