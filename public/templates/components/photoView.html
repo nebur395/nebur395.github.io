@@ -2,6 +2,7 @@
   <div class="container-fluid bg-intro text-center">
 
     <h1 class="margin-bottom letterSpacing">
+      <!-- DATA TEXT translated and sanitized -->
       <span data-ng-bind-html="'photoView.TITLE' | translate | htmlSafe"></span>
     </h1>
 
@@ -12,7 +13,10 @@
       </div>
     </div>
     <h1 class="margin-bottom letterSpacing">Rubén Moreno</h1>
-    <h2 class="sm-letterSpacing">{{'photoView.JOB' | translate}}</h2>
+    <h2 class="sm-letterSpacing">
+      <!-- DATA TEXT translated and sanitized -->
+      <span data-ng-bind-html="'photoView.JOB' | translate | htmlSafe"></span>
+    </h2>
     <div id="socialIcons">
       <a href="https://github.com/nebur395" target="_blank" class="fa fa-github"
          aria-hidden="true"></a>
@@ -24,10 +28,14 @@
     <div id="aboutAndProjectsLinks">
       <a style="margin-right: 2%" class="letterSpacing"
          ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})">
-        {{'photoView.ABOUT' | translate}}</a>
+        <!-- DATA TEXT translated and sanitized -->
+        <span data-ng-bind-html="'photoView.ABOUT' | translate | htmlSafe"></span>
+      </a>
       <a class="letterSpacing"
          ng-click="smoothScrolling({link: '#projectsStyle', clickEvent: $event})">
-        {{'photoView.PROJECTS' | translate}}</a>
+        <!-- DATA TEXT translated and sanitized -->
+        <span data-ng-bind-html="'photoView.PROJECTS' | translate | htmlSafe"></span>
+      </a>
     </div>
 
     <a ng-click="smoothScrolling({link: '#aboutMeStyle', clickEvent: $event})" id="arrow">
