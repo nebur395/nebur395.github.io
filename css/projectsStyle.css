@@ -28,6 +28,11 @@
   backface-visibility: hidden;
 }
 
+#projectsStyle .projectsCard img {
+  max-height: 220px;
+  margin: auto;
+}
+
 #projectsStyle .projectsColumnMobile:hover .projectsCard {
   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 8px 20px 0 rgba(0,0,0,0.19);
   border: 1px solid rgba(158, 158, 158, 0.7);
