@@ -11,11 +11,11 @@
         "FRONTEND": "Mi lenguaje de programación favorito es <strong>Javascript</strong>, y el framework de desarrollo de aplicaciones de front-end con el que me siento más cómodo es <strong>AngularJS</strong>.",
         "BACKEND": "Me siento cómodo trabajando con el <strong>Stack MEAN</strong> y tengo bastante interés en desarrollar aplicaciones híbridas con tecnologías como el <strong>framework Ionic 2</strong>.",
         "MANAGEMENT": "Acostumbrado a formar parte y organizar <strong>equipos pequeños de 3-5</strong> personas y de adaptarse a la metodología ágil SCRUM y sus flujos de trabajo.",
-        "PERSONAL_DEVELOPMENT": "Además de desarrollar software profesionalmente también lo hago con mis amigos a nivel personal cuando se nos ocurren algunas ideas, o participar regularmente con ellos en algún <strong>hackatón</strong> importante.",
+        "PERSONAL_DEVELOPMENT": "Además de desarrollar software profesionalmente también lo hago con mis amigos a nivel personal cuando se nos ocurren algunas ideas. También participo regularmente con ellos en algún <strong>hackatón</strong> importante.",
         "PERSONAL_ACTIVITIES": "Fuera del mundo profesional y de la informática el <strong>deporte, la música, viajar, la naturaleza y jugar videojuegos</strong> son otras de mis pasiones. De vez en cuando me gusta tocar el piano."
     },
     "projects": {
-        "TITLE": "Algunos de mis proyectos interesantes",
+        "TITLE": "Algunos de mis proyectos más interesantes",
         "anisclo": {
             "type": "Aplicación Web - Responsive",
             "description": "Proyecto para la universidad que consiste en una red social para compartir rutas y POIs de un mapa."
