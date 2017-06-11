@@ -2,3 +2,7 @@
   color: #FF9800;
   font-weight: 600;
 }
+#aboutMeStyle img {
+  max-height: 200px;
+  margin: auto;
+}
