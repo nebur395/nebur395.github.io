@@ -15,7 +15,7 @@
         "PERSONAL_ACTIVITIES": "Fuera del mundo profesional y de la informática el <strong>deporte, la música, viajar, la naturaleza y jugar videojuegos</strong> son otras de mis pasiones. De vez en cuando me gusta tocar el piano."
     },
     "projects": {
-        "TITLE": "Algunos de mis mejores proyectos",
+        "TITLE": "Algunos de mis proyectos interesantes",
         "anisclo": {
             "type": "Aplicación Web - Responsive",
             "description": "Proyecto para la universidad que consiste en una red social para compartir rutas y POIs de un mapa."
