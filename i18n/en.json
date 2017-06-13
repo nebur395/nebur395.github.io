@@ -7,42 +7,42 @@
     },
     "aboutMe": {
         "TITLE": "What Am I?",
-        "INTRO": "My name is Rubén Moreno and I'm a <strong>front-end developer from Zaragoza, Spain</strong>. I'm a graduate in Computer Engineering at University of Zaragoza of the 2013-2017 promotion in the Software Engineering spezialization. I love <strong>Web development , Software architecture, and projects and teams management</strong> following agile methodologies.",
-        "FRONTEND": "My favourite programming language is <strong>Javascript</strong>, and the front-end application development framework that I love is <strong>AngularJS 1</strong>. I always enjoy learning new technologies and experimenting with them, React and AngularJS 2 are my next goals.",
-        "BACKEND": "As a full Stack developer I love <strong>MEAN Stack</strong> and when I have to face in the back-end I use <strong>java with SpringBoot</strong> too, although I have always been struck by Scala. I also love develop hybrid applications with technologies like <strong>Ionic 2 framework.</strong>",
-        "MANAGEMENT": "I'm quite accustomed to making the <strong>system architectural designs</strong> and having to discuss and share the different points of view with other partners, in addition to <strong>directing small teams of 3-5 people</strong> normally using the agile SCRUM methodology.",
-        "PERSONAL_DEVELOPMENT": "Además de desarrollar software profesionalmente también lo hago con mis amigos a nivel personal cuando se nos ocurren algunas ideas, o participar regularmente con ellos en algún <strong>hackatón</strong> importante.",
-        "PERSONAL_ACTIVITIES": "Fuera del mundo profesional y de la informática el <strong>deporte, la música, viajar, la naturaleza y jugar videojuegos</strong> son otras de mis pasiones. De vez en cuando me gusta tocar el piano."
+        "INTRO": "My name is Rubén Moreno and I'm a <strong>front-end developer from Zaragoza, Spain</strong>. I'm a graduate in Computer Engineering at University of Zaragoza of the 2013-2017 promotion in the Software Engineering spezialization. My interests are <strong>Web development , Software architecture, and projects and teams management</strong> following agile methodologies.",
+        "FRONTEND": "My favourite programming language is <strong>Javascript</strong>, and the front-end application development framework with which I feel most comfortable is <strong>AngularJS</strong>.",
+        "BACKEND": "I feel comfortable working with the <strong>MEAN Stack</strong> and I have a lot of interest to develop hybrid applications with technologies like <strong>Ionic 2 framework.</strong>",
+        "MANAGEMENT": "Accustomed to be part of and organize <strong>small teams of 3-5</strong> people and adapt to the agile SCRUM methodology and its workflows.",
+        "PERSONAL_DEVELOPMENT": "In addition to developing Software professionally I also do it with my friends on a personal level when we come up with some ideas. I also regularly participate with them in some important <strong>hackathon</strong>.",
+        "PERSONAL_ACTIVITIES": "Outside the professional and computer world, <strong>sports, music, traveling, nature and playing video games</strong> are other of my passions. Sometimes I like playing the piano."
     },
     "projects": {
         "TITLE": "Some of my coolest projects",
         "anisclo": {
             "type": "Web Application - Responsive",
-            "description": "Proyecto para la universidad que consiste en una red social para compartir rutas y POIs de un mapa."
+            "description": "University project consisting of a social network to share routes and POIs of a map."
         },
         "smartCampUZ": {
             "type": "Web Application - Responsive",
-            "description": "Proyecto para la universidad que consiste en una aproximación de una Smart City para el Campus de Unizar."
+            "description": "University project consisting of an approximation of a Smart City for the Unizar's Campus."
         },
         "noTeRayes": {
             "type": "Web Application - Responsive",
-            "description": "Página web con una cuenta atrás para las fiestas del pilar de Zaragoza, España."
+            "description": "Website with a countdown for the Pilar's festival of Zaragoza, Spain."
         },
         "recMake": {
             "type": "Web Application - Responsive",
-            "description": "Proyecto para el hackathon uCode by Adidas 2017."
+            "description": "Project for the uCode by Adidas 2017 hackathon."
         },
         "onirian": {
             "type": "Web Application - Responsive",
-            "description": "Página web oficial del grupo de música Onirian de Zaragoza, España."
+            "description": "Official Website of Onirian music group of Zaragoza, Spain."
         },
         "trainingTracker": {
             "type": "Web Application - Responsive",
-            "description": "Proyecto para la universidad que consiste en una aplicación para controlarte las rutinas de tu ejercicio."
+            "description": "University project consisting of an application to control your exercise routines."
         },
         "airQ": {
             "type": "Web Application - Responsive",
-            "description": "Proyecto para el hackathon International Space Apps Challenge 2016 de la NASA."
+            "description": "Project for the NASA International Space Apps Challenge 2016 hackathon."
         }
     },
     "footer": {
