@@ -18,11 +18,11 @@
         "TITLE": "Some of my coolest projects",
         "anisclo": {
             "type": "Web Application - Responsive",
-            "description": "University project consisting of a social network to share routes and POIs of a map."
+            "description": "University project that consists of a social network to share routes and POIs of a map."
         },
         "smartCampUZ": {
             "type": "Web Application - Responsive",
-            "description": "University project consisting of an approximation of a Smart City for the Unizar's Campus."
+            "description": "University project that consists of an approximation of a Smart City for the Unizar's Campus."
         },
         "noTeRayes": {
             "type": "Web Application - Responsive",
@@ -38,7 +38,7 @@
         },
         "trainingTracker": {
             "type": "Web Application - Responsive",
-            "description": "University project consisting of an application to control your exercise routines."
+            "description": "University project that consists of an application to control your exercise routines."
         },
         "airQ": {
             "type": "Web Application - Responsive",
