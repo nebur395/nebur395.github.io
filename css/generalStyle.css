@@ -16,6 +16,7 @@ body {
 
 .bg-intro {
   background-color: #795548;
+  background: url(../images/intro-texture.jpg);
   color: #FFFFFF;
 }
 .bg-2 {
