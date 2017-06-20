@@ -16,11 +16,12 @@ body {
 
 .bg-intro {
   background-color: #795548;
-  background: url(../images/intro-texture.jpg);
+  background: url(../images/1-texture.png);
   color: #FFFFFF;
 }
 .bg-2 {
   background-color: #474e5d; /* Dark Blue */
+  background: url(../images/2-texture.png);
   color: #ffffff;
 }
 .bg-3 {
@@ -29,6 +30,7 @@ body {
 }
 .bg-4 {
   background-color: #5D4037;
+  background: url(../images/3-texture.png);
   color: #D7CCC8;
 }
 
