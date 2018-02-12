@@ -16,6 +16,10 @@
     },
     "projects": {
         "TITLE": "Some of my coolest projects",
+        "depotCloud": {
+            "type": "Web Application - Hybrid",
+            "description": "Final Degree Project consisting of a storage room management and optimization system."
+        },
         "anisclo": {
             "type": "Web Application - Responsive",
             "description": "University project consisting of a social network to share routes and POIs of a map."
