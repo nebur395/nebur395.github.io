@@ -74,15 +74,6 @@ angular.module('rubenMorenoApp')
             },
 
             {
-                title: "Training Tracker",
-                link: "https://github.com/UNIZAR-30248-2016-TrainingTracker/trainingTracker",
-                webPage: "",
-                secondaryTitle: "projects.trainingTracker.type",
-                image: "trainingTracker.png",
-                description: "projects.trainingTracker.description"
-            },
-
-            {
                 title: "AirQ",
                 link: "https://github.com/wynro/airQ-web",
                 webPage: "",
