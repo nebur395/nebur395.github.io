@@ -48,7 +48,7 @@ angular.module('rubenMorenoApp')
 
             {
                 title: "No te rayes CO",
-                link: "https://github.com/nebur395/noTeRayesCo",
+                link: "https://github.com/ProjectMOA/noTeRayesCo",
                 webPage: "https://noterayesco.herokuapp.com/",
                 secondaryTitle: "projects.noTeRayes.type",
                 image: "noTeRayesCo.png",
