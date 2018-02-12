@@ -16,6 +16,10 @@
     },
     "projects": {
         "TITLE": "Algunos de mis proyectos más interesantes",
+        "depotCloud": {
+            "type": "Aplicación Web - Híbrida",
+            "description": "Trabajo Final de Grado que consiste en un sistema de gestión y optimización de trasteros."
+        },
         "anisclo": {
             "type": "Aplicación Web - Responsive",
             "description": "Proyecto para la universidad que consiste en una red social para compartir rutas y POIs de un mapa."
