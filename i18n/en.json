@@ -36,10 +36,6 @@
             "type": "Web Application - Responsive",
             "description": "Official Website of Onirian music group of Zaragoza, Spain."
         },
-        "trainingTracker": {
-            "type": "Web Application - Responsive",
-            "description": "University project consisting of an application to control your exercise routines."
-        },
         "airQ": {
             "type": "Web Application - Responsive",
             "description": "Project for the NASA International Space Apps Challenge 2016 hackathon."
