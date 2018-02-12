@@ -29,6 +29,15 @@ angular.module('rubenMorenoApp')
 
         $scope.projectList = [
             {
+                title: "Depot Cloud",
+                link: "https://github.com/nebur395/DepotCloud-tfg",
+                webPage: "",
+                secondaryTitle: "projects.depotCloud.type",
+                image: "depotCloud.png",
+                description: "projects.depotCloud.description"
+            },
+
+            {
                 title: "Añisclo's POI",
                 link: "https://github.com/nebur395/Anisclo",
                 webPage: "",
