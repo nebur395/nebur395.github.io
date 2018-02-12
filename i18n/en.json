@@ -6,7 +6,7 @@
         "PROJECTS": "Projects"
     },
     "aboutMe": {
-        "TITLE": "What Am I?",
+        "TITLE": "About me",
         "INTRO": "My name is Rubén Moreno and I'm a <strong>front-end developer from Zaragoza, Spain</strong>. I'm a graduate in Computer Engineering at University of Zaragoza of the 2013-2017 promotion in the Software Engineering spezialization. My interests are <strong>Web development , Software architecture, and projects and teams management</strong> following agile methodologies.",
         "FRONTEND": "My favourite programming language is <strong>Javascript</strong>, and the front-end application development framework with which I feel most comfortable is <strong>AngularJS</strong>.",
         "BACKEND": "I feel comfortable working with the <strong>MEAN Stack</strong> and I have a lot of interest to develop hybrid applications with technologies like <strong>Ionic 2 framework.</strong>",
@@ -22,11 +22,11 @@
         },
         "anisclo": {
             "type": "Web Application - Responsive",
-            "description": "University project consisting of a social network to share routes and POIs of a map."
+            "description": "University project that consists of a social network to share routes and POIs of a map."
         },
         "smartCampUZ": {
             "type": "Web Application - Responsive",
-            "description": "University project consisting of an approximation of a Smart City for the Unizar's Campus."
+            "description": "University project that consists of an approximation of a Smart City for the Unizar's Campus."
         },
         "noTeRayes": {
             "type": "Web Application - Responsive",
